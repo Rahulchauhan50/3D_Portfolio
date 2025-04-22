@@ -8,6 +8,7 @@ import ShowcaseSection from "./sections/ShowcaseSection";
 import LogoShowcase from "./sections/LogoShowcase";
 import FeatureCards from "./sections/FeatureCards";
 import Navbar from "./components/NavBar";
+import Contactt from "./sections/Contactt";
 
 const App = () => (
   <>
@@ -20,6 +21,10 @@ const App = () => (
     <TechStack />
     <Testimonials />
     <Contact />
+    <div className='relative z-0'>
+          <Contactt />
+          {/* <StarsCanvas /> */}
+    </div>
     <Footer />
   </>
 );
